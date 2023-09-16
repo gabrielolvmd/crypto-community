@@ -1,0 +1,36 @@
+.menu-bar__container {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.menu-bar__logo a {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.menu-bar__logo a img {
+  display: block;
+}
+
+.menu-bar__logo h3 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.menu-bar__nav ul,
+.menu-bar__sign ul {
+  display: flex;
+  gap: 2em;
+}
+
+.menu-bar__nav li,
+.menu-bar__sign li {
+  transition: 0.5s;
+  &:hover {
+    color: #04d6bd;
+  }
+}

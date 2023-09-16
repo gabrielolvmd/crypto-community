@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+a,
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: radial-gradient(
+    60.95% 78.37% at 54.53% 42.49%,
+    #1a0351 0%,
+    #07071c 95.31%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
