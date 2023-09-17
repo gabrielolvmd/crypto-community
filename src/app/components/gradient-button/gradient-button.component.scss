@@ -1,0 +1,12 @@
+@use "/src/app/mixins" as *;
+
+button {
+  background: linear-gradient(
+    95deg,
+    #9adbec 0%,
+    #9f9adb 58.45%,
+    #a27bd3 90.51%
+  );
+  border: none;
+  @include mainButtons;
+}

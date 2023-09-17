@@ -1,0 +1,50 @@
+.intro__container {
+  display: flex;
+  position: relative;
+  border: 1px solid red;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+}
+
+.intro__content__text {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.intro__content__text h5 {
+  text-transform: uppercase;
+  color: #04d6bd;
+  font-size: 1.3em;
+}
+
+.intro__content__text h1 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.intro__content__text p {
+  font-size: 1.3em;
+}
+
+.intro__image {
+  position: absolute;
+  right: -25%;
+  top: -30%;
+}
+
+.intro__image img {
+  width: 100%;
+  display: block;
+  transform: rotate(190deg);
+}
+
+.intro__content__buttons {
+  display: flex;
+  gap: 3em;
+}

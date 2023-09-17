@@ -1,0 +1,7 @@
+@use "/src/app/mixins" as *;
+
+button {
+  border: 1px solid #b529dd;
+  background: none;
+  @include mainButtons;
+}
