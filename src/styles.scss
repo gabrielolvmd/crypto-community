@@ -23,5 +23,6 @@ body {
     #07071c 95.31%
   );
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  // overflow: hidden;
 }

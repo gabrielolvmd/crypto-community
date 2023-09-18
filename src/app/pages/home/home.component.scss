@@ -3,3 +3,22 @@
   flex-direction: column;
   gap: 6em;
 }
+
+.card__container{
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  border: 1px solid red;
+}
+
+.advantages__content{
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.advantages__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
