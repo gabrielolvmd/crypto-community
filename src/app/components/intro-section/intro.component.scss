@@ -31,15 +31,15 @@
 
 .intro__image {
   position: absolute;
-  right: -25%;
-  top: -30%;
+  right: 0;
+  top: -25%;
+  z-index: -1;
 }
 
 .intro__image img {
   width: 100%;
   display: block;
   transform: rotate(190deg);
-  z-index: -100;
 }
 
 .intro__content__buttons {

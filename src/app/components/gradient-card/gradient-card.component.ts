@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-gradient-card',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gradient-card.component.scss']
 })
 export class GradientCardComponent implements OnInit {
+
+  @Input()
+  image:string|null|undefined;
+
+  @Input()
+  alt:string|null|undefined;
 
   constructor() { }
 
