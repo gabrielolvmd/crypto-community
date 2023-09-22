@@ -11,15 +11,79 @@
   border: 1px solid red;
 }
 
+.advantages__section{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
 .advantages__content{
   text-align: center;
   width: 75%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .advantages__cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  gap: 7em;
+  row-gap: 6em;
+  column-gap: 6em;
+}
+
+.secure-section{
+  display: flex;
+  gap: 2em;
+  border: 1px solid red;
+}
+
+.secure-section__image{
+  flex: 1;
+}
+
+.secure-section__image img{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.secure-section__content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.secure-section__cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5em;
+}
+
+.build-section{
+  border: 1px solid red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+}
+
+.build-section__content{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 65%;
+}
+
+.build-section__image{
+  max-width: 100%;
+}
+
+.build-section__image img{
+  display: block;
+  width: 100%;
 }

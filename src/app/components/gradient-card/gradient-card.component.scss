@@ -4,9 +4,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // height: 10em;
+    gap: 1em;
 }
 
 .gradient-card img{
     display: block;
-    width: 80%;
+    max-width: 50%;
+    max-height: 130px;
+    margin: 0 auto;
+    // position: relative;
+    // top: -25%;
+}
+
+.gradient-card p{
+    font-weight: 600;
+    font-size: 1.2em;
 }

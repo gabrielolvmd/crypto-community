@@ -12,6 +12,7 @@ import { TradeCardComponent } from './components/trade-card/trade-card.component
 import { DefaultPComponent } from './components/default-p/default-p.component';
 import { DefaultTitleComponent } from './components/default-title/default-title.component';
 import { GradientCardComponent } from './components/gradient-card/gradient-card.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { GradientCardComponent } from './components/gradient-card/gradient-card.
     DefaultPComponent,
     DefaultTitleComponent,
     GradientCardComponent,
+    SmallCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
