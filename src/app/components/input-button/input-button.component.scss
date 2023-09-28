@@ -3,5 +3,9 @@ button{
     color: #16063B;
     border: none;
     padding: .5em 3em;
-    font-weight: 500;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        background: color-mix(in srgb, #04D6BD, #0000 15%);
+    }
 }

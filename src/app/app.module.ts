@@ -16,6 +16,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { InputLabelComponent } from './components/input-label/input-label.component';
 import { InputButtonComponent } from './components/input-button/input-button.component';
 import { SubscribeCardComponent } from './components/subscribe-card/subscribe-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SubscribeCardComponent } from './components/subscribe-card/subscribe-ca
     InputLabelComponent,
     InputButtonComponent,
     SubscribeCardComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

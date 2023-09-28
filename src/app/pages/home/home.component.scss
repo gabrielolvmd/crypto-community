@@ -1,18 +1,35 @@
 .home__container {
   display: flex;
   flex-direction: column;
-  gap: 6em;
+  gap: 10em;
+  position: relative;
+}
+
+.home__container__blurShapes{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  background: 
+  radial-gradient(circle at right top, #ffffff66 45px, transparent 400px),
+  radial-gradient(circle at left 7%, #ed8c3861 300px, transparent 100px),
+  radial-gradient(circle at right 25%, #ffffff29 500px, transparent 150px),
+  radial-gradient(circle at left 45%, #4ee39d40 500px, transparent 150px),
+  radial-gradient(circle at right 80%, #ff05e640, 450px, transparent 150px),
+  radial-gradient(ellipse at right 100%, #4ee39d40 700px, transparent 200px);
+  
+  filter: blur(150px);
+  z-index: -999;
 }
 
 .card__container{
   display: flex;
   justify-content: center;
   gap: 4em;
-  border: 1px solid red;
 }
 
 .advantages__section{
-  border: 1px solid red;
+  // border: 1px solid red;
   display: flex;
   flex-direction: column;
   gap: 5em;
@@ -37,7 +54,7 @@
 .secure-section{
   display: flex;
   gap: 2em;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .secure-section__image{
@@ -64,7 +81,7 @@
 }
 
 .build-section{
-  border: 1px solid red;
+  // border: 1px solid red;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -91,7 +108,7 @@
 .arbitrum__section{
   display: flex;
   gap: 5em;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .arbitrum__section__content{
@@ -107,5 +124,5 @@
 }
 
 .arbitrum__section__image{
-  border: 1px solid red;
+  // border: 1px solid red;
 }
