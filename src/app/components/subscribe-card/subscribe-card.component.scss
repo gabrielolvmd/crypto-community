@@ -1,0 +1,20 @@
+.subscribe__container{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #0e2e55;
+    padding: 2em 6em;
+    border-radius: 4em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: 1px solid red;
+}
+
+.subscribe__cards{
+    display: flex;
+    gap: 1em;
+}
+

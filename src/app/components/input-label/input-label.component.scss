@@ -1,0 +1,15 @@
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 1px solid #04D6BD;
+}

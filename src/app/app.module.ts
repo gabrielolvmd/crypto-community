@@ -13,6 +13,9 @@ import { DefaultPComponent } from './components/default-p/default-p.component';
 import { DefaultTitleComponent } from './components/default-title/default-title.component';
 import { GradientCardComponent } from './components/gradient-card/gradient-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
+import { InputLabelComponent } from './components/input-label/input-label.component';
+import { InputButtonComponent } from './components/input-button/input-button.component';
+import { SubscribeCardComponent } from './components/subscribe-card/subscribe-card.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { SmallCardComponent } from './components/small-card/small-card.component
     DefaultTitleComponent,
     GradientCardComponent,
     SmallCardComponent,
+    InputLabelComponent,
+    InputButtonComponent,
+    SubscribeCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

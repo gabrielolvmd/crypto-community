@@ -87,3 +87,25 @@
   display: block;
   width: 100%;
 }
+
+.arbitrum__section{
+  display: flex;
+  gap: 5em;
+  border: 1px solid red;
+}
+
+.arbitrum__section__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.arbitrum__section__cards{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.arbitrum__section__image{
+  border: 1px solid red;
+}
