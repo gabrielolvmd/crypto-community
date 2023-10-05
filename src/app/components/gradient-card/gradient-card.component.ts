@@ -16,6 +16,9 @@ export class GradientCardComponent implements OnInit {
   @Input()
   description:string|null|undefined;
 
+  @Input()
+  gradientBackground:string|null|undefined;
+
   constructor() { }
 
   ngOnInit(): void {

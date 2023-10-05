@@ -1,8 +1,10 @@
 .home__container {
   display: flex;
   flex-direction: column;
-  gap: 10em;
+  gap: 7em;
   position: relative;
+  overflow-x: hidden;
+  padding: 0 1.5em;
 }
 
 .home__container__blurShapes{
@@ -25,7 +27,11 @@
 .card__container{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4em;
+  @media screen and (max-width:900px) {
+    flex-direction: column;
+  }
 }
 
 .advantages__section{
@@ -42,6 +48,10 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  @media screen and (max-width:900px){
+    width: 100%;
+  }
+  
 }
 
 .advantages__cards{
@@ -49,12 +59,19 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 6em;
   column-gap: 6em;
+  @media screen and (max-width:900px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .secure-section{
   display: flex;
   gap: 2em;
   // border: 1px solid red;
+  @media screen and (max-width:900px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .secure-section__image{
@@ -78,6 +95,9 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 1.5em;
+  @media screen and (max-width:900px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .build-section{
@@ -94,6 +114,9 @@
   flex-direction: column;
   gap: 1em;
   width: 65%;
+  @media screen and (max-width:900px) {
+    width: 100%;
+  }
 }
 
 .build-section__image{
@@ -109,12 +132,17 @@
   display: flex;
   gap: 5em;
   // border: 1px solid red;
+  @media screen and (max-width:900px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .arbitrum__section__content{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  gap: 2em;
 }
 
 .arbitrum__section__cards{
@@ -124,5 +152,17 @@
 }
 
 .arbitrum__section__image{
-  // border: 1px solid red;
+  max-width: 100%;
+}
+
+.arbitrum__section__image img{
+  width: 100%;
+  display: block;
+}
+
+.subscribe__section{
+  @media screen and (max-width:900px) {
+    max-width: 500px;
+    
+  }
 }

@@ -47,6 +47,10 @@ footer{
 .terms ul{
     display: flex;
     justify-content: space-around;
+    @media screen and (max-width:600px) {
+        gap: 1.5em;
+        flex-wrap: wrap;
+    }
 }
 
 .terms ul li a{

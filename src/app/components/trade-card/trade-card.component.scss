@@ -7,6 +7,9 @@
     gap: 2em;
     text-align: center;
     position: relative;
+    @media screen and (max-width:900px) {
+        width: 20em;
+    }
 }
 
 .card::before{
@@ -24,9 +27,15 @@ h5{
     font-size: 1.5em;
     color: #CD2FF2;
     font-weight: 600;
+    @media screen and (max-width:900px) {
+        font-size: 1em;
+    }
 }
 
 h3{
     font-size: 3em;
     font-weight: 400;
+    @media screen and (max-width:900px) {
+        font-size: 2em;
+    }
 }

@@ -26,23 +26,40 @@
 .intro__content__text h1 {
   font-size: 3.5em;
   font-weight: 600;
+  
+  @media screen and (max-width:600px) {
+   font-size: 3em; 
+  }
 }
 
 
 .intro__image {
+  width: 100%;
   position: absolute;
   right: 0;
   top: -25%;
   z-index: -1;
+  @media screen and (max-width:600px) {
+    top: 0;
+    right: -30%;
+  }
 }
 
 .intro__image img {
   width: 100%;
   display: block;
   transform: rotate(190deg);
+  @media screen and (max-width:600px) {
+    width: 70%;
+  }
 }
 
 .intro__content__buttons {
   display: flex;
   gap: 3em;
+  @media screen and (max-width:900px) {
+    
+    justify-content: center;
+    align-items: center;
+  }
 }

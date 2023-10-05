@@ -3,4 +3,7 @@
   font-size: 1.3em;
   border-radius: 0.6em;
   font-weight: 500;
+  @media screen and (max-width:600px) {
+    padding: .5em 2em;
+  }
 }

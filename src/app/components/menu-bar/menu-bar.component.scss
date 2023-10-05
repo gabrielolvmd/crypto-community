@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: center;
   // border: 1px solid red;
+  @media screen and (max-width:900px) {
+    padding: 1em 0;
+  }
 }
 
 .menu-bar__logo a {
@@ -32,5 +35,28 @@
   transition: 0.5s;
   &:hover {
     color: #04d6bd;
+  }
+}
+
+.menu-bar__nav,
+.menu-bar__sign{
+  @media screen and (max-width:800px) {
+    display: none;
+  }
+}
+
+.menu-bar__mobile span i{
+  font-size: 1.5em;
+  color: white;
+  transition: color .3s ;
+  &:hover{
+    cursor: pointer;
+    color: #04d6bd;
+  }
+}
+
+.menu-bar__mobile{
+  @media screen and (min-width:800px) {
+    display: none;
   }
 }
