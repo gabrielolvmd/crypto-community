@@ -9,4 +9,18 @@ button {
   );
   border: none;
   @include mainButtons;
-}
+  cursor: pointer;
+
+  transition: background .3s ease;
+
+  &:hover{
+    background: linear-gradient(
+    45deg,
+    #9adbec 10%,
+    #9f9adb 50%,
+    #a27bd3 80%
+  );
+  transition: background .3s ease;
+  }
+  }
+

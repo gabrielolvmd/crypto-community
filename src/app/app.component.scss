@@ -2,3 +2,22 @@
   margin: auto;
   max-width: 1200px;
 }
+
+.home__container__blurShapes{
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: 
+  radial-gradient(circle at right top, #ffffff66 45px, transparent 400px),
+  radial-gradient(circle at left 7%, #ed8c3861 300px, transparent 100px),
+  radial-gradient(circle at right 25%, #ffffff29 500px, transparent 150px),
+  radial-gradient(circle at left 45%, #4ee39d40 500px, transparent 150px),
+  radial-gradient(circle at right 80%, #ff05e640, 450px, transparent 150px),
+  radial-gradient(ellipse at right 100%, #4ee39d40 700px, transparent 200px);
+  
+  filter: blur(150px);
+  z-index: -999;
+}

@@ -9,6 +9,8 @@
 
 .home__container__blurShapes{
   position: absolute;
+  right: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   
@@ -156,8 +158,13 @@
 }
 
 .arbitrum__section__image img{
-  width: 100%;
+  
+  height: 100%;
   display: block;
+  @media screen and (max-width:600px) {
+    width: 100%;
+    height: initial;
+  }
 }
 
 .subscribe__section{

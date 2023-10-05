@@ -3,5 +3,11 @@
 button {
   border: 1px solid #b529dd;
   background: none;
+  transition: all .4s ease;
   @include mainButtons;
+  cursor: pointer;
+  &:hover{
+    background: #b529dd;
+    
+  }
 }
